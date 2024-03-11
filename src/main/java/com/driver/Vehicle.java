@@ -4,7 +4,7 @@ public class Vehicle {
 
     private String name;
     private int currentSpeed;
-    private int currentDirection;
+    protected int currentDirection;
 
     public Vehicle(String name) {
 
